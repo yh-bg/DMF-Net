@@ -6,9 +6,6 @@ from MSKA import MSKAattention
 ######################################
 #            common model
 ######################################
-import MSKA
-from SAattention import SAattention
-
 
 class Upsampler(torch.nn.Module):
     def __init__(self, scale, n_feat, bn=False, activation='prelu', bias=True):
