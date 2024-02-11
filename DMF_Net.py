@@ -5,7 +5,6 @@ import torch.optim as optim
 from base_net import *
 from torchvision.transforms import *
 import torch.nn.functional as F
-from SAattention import SAattention
 from MSKA import MSKAattention
 from TFB import CrossSwinTransformer, CrossSwinTransformer_1
 
