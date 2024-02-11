@@ -6,7 +6,6 @@ from PIL import Image
 import numpy as np
 from torchvision import transforms
 from os.path import join
-# from transforms import Stretch
 import cv2
 
 
